@@ -1095,7 +1095,7 @@ switch ($part)
 		{
 			if (!isset($strin[$o_msgstr['msgstr']]))
 			{
-				$strin[$o_msgstr['msgstr']] = '';
+				$strin[$o_msgstr['msgstr']] = array();
 			}
 			$strin[$o_msgstr['msgstr']][] = array('module'=>$o_msgstr['module'],'file'=>$o_msgstr['file']);
 		}

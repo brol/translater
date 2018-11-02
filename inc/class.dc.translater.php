@@ -611,7 +611,7 @@ class dcTranslater
 		
 		if (is_dir($backup.'/'.$file) 
 		 || !$is_backup 
-		 || !self::isIsoCode($m[3])) continue;
+		 || !self::isIsoCode($m[3]));
 		
 		if (!files::isDeletable($backup.'/'.$file))
 		{
@@ -1384,7 +1384,7 @@ class dcTranslater
 				$l .= "\n";
 			}
 		}
-		$l .= "?>";
+		$l .= "";
 		
 		self::writeLangFile($locales.'/'.$lang.'/'.$group.'.lang.php',$l,true);
 	}

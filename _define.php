@@ -17,12 +17,12 @@ $this->registerModule(
 	/* Name */			"translater",
 	/* Description*/		"Translate your Dotclear plugins and themes",
 	/* Author */		"JC Denis",
-	/* Version */		'2016.08.20',
+	/* Version */		'2018.10.26',
 	/* Properties */
 	array(
 		'permissions' => 'usage,contentadmin,admin',
 		'type' => 'plugin',
-		'dc_min' => '2.6',
+		'dc_min' => '2.14',
 		'support' => 'http://forum.dotclear.org/viewtopic.php?id=39220',
 		'details' => 'http://plugins.dotaddict.org/dc2/details/translater'
 		)
